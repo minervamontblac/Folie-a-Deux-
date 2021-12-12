@@ -1,0 +1,9 @@
+# Folie-a-Deux-
+first
+#include<stdio.h>/*引入库函数*/
+
+int main()/*主函数*/
+{
+	printf("i wanna scream i love you from the top of my lungs\n");/*printf-打印函数*/
+	return 0;
+}
