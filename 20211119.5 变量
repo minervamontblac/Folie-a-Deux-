@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+int age = 16;/*全局变量*/
+
+int main()
+{
+	int age = 54;/*局部变量 优先级局部更高*//*作用域就是命令可运行的范围*/
+	printf("%d\n",age);
+	return 0;
+}
