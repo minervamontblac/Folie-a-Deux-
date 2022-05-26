@@ -1,0 +1,14 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+
+#include<stdio.h>
+
+#include<string.h>
+
+int main()
+{
+	char arr1[] = "abc";/*字符串 数组*//*在末尾隐藏\0--字符串的结束标志*/ /*abc3个字母*/
+	char arr2[] = {'a', 'b', 'c'};/*ASCII编码a--97 A--65*/ /*15个随机值后找到了一个\0*/
+	printf("%d\n", strlen(arr1));/*strlen--string length--计算字符串长度*/
+	printf("%d\n", strlen(arr2));
+	return 0;
+}
