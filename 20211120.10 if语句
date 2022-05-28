@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+{
+	int intput = 0;
+	printf("选择买表\n");
+	printf("你有钱吗?(1/0)>: ");
+	scanf("%d",&intput);
+	if(intput == 1)
+		printf("minerva1858\n");
+	else
+		printf("mrg\n");
+	return 0;
+}
