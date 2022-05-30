@@ -1,0 +1,19 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+
+int main()
+{
+	int money = 0;
+	printf("进入社会\n");
+
+	while(money<300000)
+	{
+		printf("挣一万块钱并存起来, %d\n",money);
+		money++;
+	}
+	if(money>=300000)
+	printf("我挣够了\n");
+	printf("大别墅，rs7，万宝龙千分之一计时码表都是我的哈哈\n");
+	printf("这就是成功人士的无聊时光\n");
+	return 0;
+}
