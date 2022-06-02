@@ -1,0 +1,36 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+//内置关键字 无法与变量冲突
+//auto--局部变量--自动变量通常省略
+//break
+//case
+//char
+//const
+//continue--终止本次循环，直接进行下一次判断
+//default
+//define--#define定义标识符常量，还可以标识宏#define MAX（x,y） (x>y?x:y)可用于替换下面的MAX(X,Y)
+//do
+//double
+//else
+//enum
+//extern--声明外部符号，可以在其他项目引出定义
+//float
+//for
+//if
+//goto
+//int
+//long
+//register--关键字--寄存器--高速缓存--内存--硬盘 访问速度递减，内存容量增大
+//register int a 建议把a定义为寄存器变量
+//return
+//short
+//signed--signed等价于int
+//sizeof
+//static--可是局部变量不再销毁，局部变量生命周期变长。其修饰全局变量改变了其作用域，让静态全局变量只能在自己的源文件之中使用。修饰函数与修饰全局变量类似
+//struct--结构体关键字
+//switch
+//typedef--类型定义 unsigned int a--typedef unsigned int u-int
+//union
+//unsigned--无符号数
+//void
+//volatile
+//while
