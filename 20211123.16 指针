@@ -1,0 +1,17 @@
+#define _CRT_SECURE_NO_WAR
+
+#include<stdio.h>
+
+int main()
+{
+	int a = 10;
+	int* p = &a;
+	printf("%p\n",&a);/*查看地址*/
+	printf("%p\n",p);
+	//p = &a p用来存储a的地址称为指针
+	//int*被称为p的类型
+	//*p=20；*p就是a打印后a值为20
+	return 0;
+}
+//32位的平台上p的大小为4个字节
+//64位的平台上p的大小为8个字节
