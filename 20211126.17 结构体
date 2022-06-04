@@ -1,0 +1,19 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+
+#include<stdio.h>
+
+struct Book
+{
+	char name[20];
+	short price;
+};/*创建一个结构体类型*/
+
+int main()
+{
+	struct Book b1  = {"C语言设计",55};/*利用结构体类型创建该类型的结构体变量*/
+	printf("书名:%s\n",b1.name);
+	printf("价格:%d元\n",b1.price);
+	b1.price = 15;
+	printf("修改后的价格:%d\n",b1.price);
+	return 0;
+}
