@@ -1,0 +1,64 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main()
+{
+	//寻找1--100内的奇数
+	//int i = 0;
+	//while(i<=100)
+	//{
+		//if(i%2 == 1)
+			//printf("%d\n",i);
+		//i++;
+	//}
+
+	//int a = 0;
+	//int b = 2;
+	//if(a == 1)
+	//{
+	//if(b == 2)
+	//printf("123\n");
+	//else
+	//}   加上括号可是代码正常输出
+	//printf("321\n");   在if语句中else会优先与最近的且未匹配的if进行配对 所以该代码不会输出
+
+	//int age = 85;
+	//if(age<18)
+	//{
+	//printf("未成年\n");
+	//printf("不能进入网吧\n");
+	//}   想要执行多重语句需要使用代码块
+	//else if(age>=18 && age<25)
+	//printf("青年\n");
+	//else if(age>=25 && age<50)  该判断条件不能写成(25<=age<50)
+	//printf("中年\n");
+	//else if(age>=50 && age<90)
+	//printf("老年\n");
+	//else
+	//printf("长寿者\n");   最后一个else可以省略
+
+	//int age = 85;
+	//if(age<18)
+	//printf("未成年\n");
+	//else 
+	//{if(age>=18 && age<25)
+	//printf("青年\n");
+	//else if(age>=25 && age<50)
+	//printf("中年\n");
+	//else if(age>=50 && age<90)
+	//printf("老年\n");
+	//else
+	//printf("长寿者\n");
+	//}   该写法同样可行
+
+	//int age = 18;
+	//if(age>=18)
+	//printf("成年\n");
+	//else
+	//printf("未成年\n");两种情况一种执行 要么另一种执行
+
+	//int age = 18;
+	//if(age>=18)
+	//printf("成年\n");单if的形式 反之则不会输出任何东西
+
+	return 0;
+}
