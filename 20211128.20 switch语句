@@ -1,0 +1,38 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+	int day = 0;
+	scanf("%d",&day);   /*必须定义整形常量*/
+	switch(day)
+	{
+	case 1:
+		printf("星期1");
+		break;
+	case 2:
+		printf("星期2");
+		break;
+	case 3:
+		printf("星期3");
+		break;
+	case 4:
+		printf("星期4");
+		break;
+	case 5:
+		printf("星期5");
+		break;
+	case 6:
+		printf("星期6");
+		break;
+	case 7:
+		printf("星期7");
+		break;
+	default:   /*可以放到大括号内的任意位置*/
+		printf("输入错误");
+		break;
+	}
+	return 0;
+}
