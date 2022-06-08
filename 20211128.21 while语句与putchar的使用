@@ -1,0 +1,36 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main()
+{
+	//int ch = 0;
+	//while((ch = getchar()) != EOF)
+	//{
+	//	if(ch<'0' || ch>'9')
+	//		continue;
+	//	putchar(ch);
+	//}
+
+	//int ch = 0;
+	//EOF-是文件结束标志
+	//while((ch=getchar()) !=EOF)  /*CTRL+Z可使循环停止*/
+	//{
+	//	putchar(ch);
+	//}
+
+	//int ret = 0;
+	//char password[20] = {0};
+	//printf("输入密码");
+	//scanf("%s",password);//缓冲区剩余\n
+	//int ch = 0;
+	//while((ch = getchar()) != '\n')
+	//{
+	//	;
+	//}//循环语句来收取缓冲区的剩余代码
+	//printf("请确认(Y/N)");
+	//ret = getchar();
+	//if (ret == 'Y')
+	//	printf("确认成功");
+	//else
+	//	printf("确认失败");
+	return 0;
+}
