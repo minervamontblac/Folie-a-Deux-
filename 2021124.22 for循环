@@ -1,0 +1,36 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+
+int main()
+{
+	//int x, y;
+	//for(x=0,y=0;x<2&&x<5;++x,++y)
+	//{
+	//	printf("sad");
+	//}	
+
+	//int i = 0;
+	//int j = 0;
+	//for(;i<10;i++)
+	//{
+	//	for(j=0;j<10;j++)//不要随意省略 否则会出问题
+	//	{
+	//		printf("asd\n");
+	//	}
+	//}
+
+	//for(;;)//三个均可省略  如果判断部分被省略 那么判断条件横为真
+	//{
+	//	printf("asd");//死循环
+	//}
+
+	//int i = 0;
+	////初始化 判断 调整
+	//for(i=0;i<10;i++)//尽量采用前闭后开的写法
+	//{
+	//	if(i == 5)//不要在循环内部改变变量
+	//		continue;//break 与continue用法一样
+	//	printf("%d",i);
+	//}
+	return 0;
+}
