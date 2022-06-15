@@ -1,0 +1,57 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+//求两数中的大数
+//  int get_max(int x,int y)形式参数
+//{
+//	if(x>y)
+//		return x;
+//	else
+//		return y;
+//}
+//int main()
+//{
+//	int a = 10;
+//	int b = 20;
+//	int max = get_max(a,b);实际参数
+//	printf("%d\n",max);
+//	return 0;
+//}
+
+//交换a,b的值
+//void exchange(int x,int y)
+//{
+//	int tmp = 0;
+//	tmp = x;
+//	x = y;
+//	y = tmp;
+//}
+//
+//int main()
+//{
+//	int a = 10;
+//	int b = 20;
+//	printf("a=%d b=%d\n",a,b);
+//  函数调用 传值调用 当实参传给形参时，形参其实是实参的一份拷贝，对形参改变不会影响实参
+//	exchange(a, b);
+//	printf("a=%d b=%d\n",a,b);
+//	return 0;
+//} x,y与a,b的地址不同无法进行互换
+
+//void swap(int *pa,int *pb)
+//{
+//	int tmp = 0;
+//	tmp = *pa;
+//	*pa = *pb;
+//	*pb = tmp;
+//}
+//
+//int main()
+//{
+//	int a = 10;
+//	int b = 20;
+//	printf("a=%d b=%d\n",a,b);
+//  调用函数 传址调用 函数外部可以操纵函数内部
+//	swap(&a,&b);
+//	printf("a=%d b=%d\n",a,b);
+//	return 0;
+//}
