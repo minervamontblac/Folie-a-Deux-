@@ -1,0 +1,13 @@
+	/*printf("%d\n",sizeof(char*));4
+	printf("%d\n",sizeof(int*));4
+	printf("%d\n",sizeof(double*));4
+	printf("%d\n",sizeof(short*));4*/
+	//int a = 0x11223344;
+	//int* pa = &a;
+	//*pa = 0;
+	//char* pc = &a;
+	//*pc = 0;
+	//printf("%p\n",pa);
+	//printf("%p\n",pc);
+	//指针类型决定了解引用操作时能访问空间的大小，int*p；*p可以访问4个字节，char*p；*p可以访问1个字节。
+	//指针类型决定了指针走一步能走多远。int*p；p+1--》4.char*p；p+1--》1；
