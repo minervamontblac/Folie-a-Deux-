@@ -1,0 +1,16 @@
+	//二级指针
+	//int a =10;
+	//int* pa = &a;一级指针
+	//int* * ppa = &pa;二级指针
+
+	//指针数组--数组
+	int a = 0;
+	int b = 0;
+	int c = 0;
+	//int* pa = a;
+	//int* pb = b;
+	//int* pc = c;
+	//int arr[10];
+	int* arr[3] = {&a,&b,&c};
+	//数组指针--指针
+	return 0;
