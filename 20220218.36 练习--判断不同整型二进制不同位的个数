@@ -1,0 +1,28 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<string.h>
+
+//int count(int n)
+//{
+//	int counts = 0;
+//	while(n)
+//	{
+//		n = n&(n-1);
+//		counts++;
+//	}
+//	return counts;
+//}
+//int getmy(int m,int n)
+//{
+//	int tmp = m^n;
+//	return count(tmp);
+//}
+//int main()
+//{
+//	int m = 0;
+//	int n = 0;
+//	scanf("%d%d",&n,&m);
+//	int count = getmy(m,n);
+//	printf("%d\n",count);
+//	return 0;
+//}
