@@ -1,0 +1,32 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<string.h>
+// int strlen(char* str)
+// {
+//	 int count = 0;
+//	 while(*str!=0)
+//	 {
+//		 count++;
+//		 str++;
+//	 }
+//	 return count;
+// }
+//int reverage(char arr[])
+//{
+//	char tmp = arr[0];
+//	int len = strlen(arr);
+//	arr[0] = arr[len-1];
+//	arr[len-1] = '\0';
+//	if(strlen(arr+1)>=2)
+//	{
+//	reverage(arr+1);
+//	}
+//	arr[len-1] = tmp;
+//}
+//int main()
+//{
+//	char arr[] = "abcdef";
+//	reverage(arr);
+//	printf("%s\n",arr);
+//	return 0;
+//}
