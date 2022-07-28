@@ -1,0 +1,45 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+
+//struct stu//结构体关键字 结构体标签
+//{
+//	char name[20];
+//	short age;
+//	char tele[12];
+//	char sex[5];//结构体变量
+//}s1,s2,s3;//s1,s2,s3是全局变量 定义一个结构体类型
+//typedef struct stu
+//{
+//	char name[20];
+//	short age;
+//	char tele[12];
+//	char sex[5];
+//}stu;//重新起名为stu为类型
+//int main()
+//{
+//	struct stu s2 = {"狗比",35,"4568791235","性"};//s局部变量
+//	stu s1 = {"上撒旦",20,"13020702188","男"};
+//	return 0;
+//}
+//结构体引用嵌套
+//struct s
+//{
+//	int a;
+//	char c;
+//	char arr[20];
+//	double d;
+//}
+//struct b
+//{
+//	char ch[10];
+//	struct s s1;
+//	char *pc;
+//}
+//int main()
+//{
+//	char arr[] = "sadqwe";
+//	struct b t = {"hello",{100,'w',"hello world",3.14},arr};
+//	printf("%s\n",t.ch);
+//	printf("%s\n",t.s1.arr);
+//	return 0;
+//}
