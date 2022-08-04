@@ -1,0 +1,65 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stdlib.h>
+#include<assert.h>
+
+
+
+
+
+
+
+//调试练习
+//int main()//i的空间与arr[12]空间相同改arr[12]时i也改为0，栈区存放位置相同，debug版本i的地址在数组上面，release版反之release版本进行优化
+//{
+//	int i = 0;
+//	int arr[10] = {1,2,3,4,5,6,7,8,9,10};
+//	for(i = 0;i <=12;i++)//12越界
+//	{
+//		printf("jeah\n");
+//		arr[i] = 0;
+//	}
+//	return 0;
+//}
+
+//优化strcpy
+//char* mystrcpy(char*dest,const char*src)//锁定右值 const放在指针*左边时修饰*p 不能改变*p的值 const放在*与p之间时修饰的是p
+//{
+//	char* ret = dest;
+//	assert(dest != NULL&&src != NULL);//断言可以抛出问题所在 不使用if
+//		while( *dest++ = *src++)//while(*src!='\0')
+//		{
+//			;//*dest++ = *src++;
+//			//dest++;
+//			//src++;
+//		}
+//		//*dest = *src;
+//		return ret;//返回类型
+//}
+//int main()
+//{
+//	char arr1[] = "*****************";
+//	char arr2[] = "bit";
+//	printf("%s\n",mystrcpy(arr1,arr2));
+//	return 0;
+//}
+
+//满分代码
+//int mystrlen(const char* str)
+//{
+//	int count = 0;
+//	assert(str!=NULL);
+//	while(*str != '\0')
+//	{
+//		str++;
+//		count++
+//	}
+//	return count;
+//}
+//int main()
+//{
+//	char arr[] = "abcdef";
+//	int len = mystrlen(arr);
+//	printf("%d\n",len);
+//	return 0;
+//}
