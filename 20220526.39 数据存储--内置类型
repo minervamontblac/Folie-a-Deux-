@@ -1,0 +1,18 @@
+
+//	整型家族
+	//	char
+	//		unsigned char 无符号
+	//			无符号位char范围为0-255
+	//		signed char 有符号
+	//			10000000---在有符号位
+	//			11111111---特别规定为-128
+	//			有符号char的范围位-128-127
+	//	short
+	//		unsigned short[int]//int可省略
+	//		signed short[int]
+	//	int
+	//	long
+	//	long long
+//	浮点型家族
+	//	float
+	//	double
