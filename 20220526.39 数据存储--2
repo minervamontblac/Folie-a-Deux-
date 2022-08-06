@@ -1,0 +1,23 @@
+//2.自定义类型(构造类型)
+	//	数组类型
+	//	结构体类型 struct
+	//	枚举类型 enum
+	//	联合类型 union
+//3.指针类型
+	//	int* p
+	//	char* p
+	//	float* p
+	//	void* p
+	//4.空类型
+	//	void//2.自定义类型(构造类型)
+	//	数组类型
+	//	结构体类型 struct
+	//	枚举类型 enum
+	//	联合类型 union
+//3.指针类型
+	//	int* p
+	//	char* p
+	//	float* p
+	//	void* p
+	//4.空类型
+	//	void
