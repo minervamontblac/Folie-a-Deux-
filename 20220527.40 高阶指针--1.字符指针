@@ -1,0 +1,26 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+
+//int main()
+//{
+//  char ch  = 'w';
+//	char *pc = &ch;
+//
+//	char arr[] = "abcdef";
+//	char* pc = arr;
+//	char* p = "abcdef";常量字符串  将a的地址赋给p
+//	*p = 'w';会报段错误--Segmentation fault
+//	return 0;
+//}
+//int main()
+//{
+//	char arr1[] = "abcdef";
+//	char arr2[] = "acbdef";
+//	arr1与arr2地址不同不会相等
+//	const char *p1 = "abcdef";
+//	const char* p2 = "abcdef";
+//	常量字符串不会被修改 p1与p2均指向相同地址
+//	return 0;
+//}
