@@ -1,0 +1,28 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+
+
+
+
+//int main()
+//{
+//	int *p = NULL;//指向整型的指针-存放整型地址
+//	int *pc = NULL;//指向字符的指针-存放字符地址
+//	int arr[10] = {1,2,3,4,5,6,7,8,9,10};
+//	int (*p)[10] = &arr;//数组指针
+//	char* arr[5];
+//	char* (*pa)[5] = &arr;char*--数据类型，*pa--指针，[5]--pa指向数组大小
+//	return 0;
+//}
+//int main()
+//{
+//	int arr[10] = {1,2,3,4,5,6,7,8,9,10};
+//	int(*pa)[10] = &arr;
+//	int i = 0;
+//	for(i=0;i<10;i++)
+//	{
+//		printf("%d ",(*pa)[i]);//*pa = arr
+//	}
+//}
