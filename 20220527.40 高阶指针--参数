@@ -1,0 +1,13 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+
+//数组参数
+//int arr[10] = {0};传参接收--int arr[] = int arr[10] =  *int arr
+//int *arr[10] = {0};int *arr[20] = int **arr
+//int arr[3][5] = {0};int arr[3][5] = int arr[][5] = int (*arr)[5]可以没有行
+//指针参数
+//void asd(int *p);int a = 10--传&a;int p1 = &a--传p1;
+//char *p;char ch = 'w'--传&ch;char *p2 = &ch--传p2;
+//int **pr;int *ptr--传&ptr;int **pp = &ptr--传pp;int*arr[10]--传arr
