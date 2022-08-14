@@ -1,0 +1,24 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+
+//函数指针--存放函数地址
+//&add与add均是函数的地址
+//int (*pa)(int,int) = add;--(*pa)(2,3)传2，3
+//(*(void(*)())0)()--把0强制转换为void(*)()--函数指针类型--0就是一个地址--*()0调用0地址处的函数
+//void(*             signal(int,void(*)(int))                 )(int)
+//siginal是一个函数声明，第一个是int,第二个是函数指针，该函数指针指向参数int，返回类型void
+//siginal的返回类型也是一个函数指针，该函数指针指向参数int，返回类型void
+//简化版
+//pufnh signal(int,pufnh)
+//typedey void(* pufnh)(int)
+//int main()
+//{
+//	int a = 10;
+//	int b = 20;
+//	int(*pa)(int,int) = add;
+//	printf("%d\n",(pa)(2,3));
+//	printf("%d\n",(*pa)(2,3));//两者调用相同
+//	return 0;
+//}
