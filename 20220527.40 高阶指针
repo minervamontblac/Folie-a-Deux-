@@ -1,0 +1,39 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+
+//函数指针数组
+//int add(int x,int y)
+//{
+//	return x+y;
+//}
+//int sub(int x,int y)
+//{
+//	return x-y;
+//}
+//int mul(int x,int y)
+//{
+//	return x*y;
+//}
+//int div(int x,int y)
+//{
+//	return x/y;
+//}
+//int main()
+//{
+//	int* arr[5];
+//	int (*pa)(int,int) = add;//sub//mul//div
+//	int (*parr[4])(int,int) = {add,sub,mul,div};//函数指针数组
+//	int i = 0;
+//	for(i = 0;i<4;i++)
+//	{
+//		printf("%d\n",parr[i](2,3));
+//	}
+//	return 0;
+//}
+//char* mystrcpy(char* dest,const char* src);
+//写一个函数指针，指向mystrcpy
+//char*(*kps)(char*,const char*) 
+//写一个函数指针数组能够存放4个mystrcpy的地址
+//char*(*parr[4])(char*,const char*)
