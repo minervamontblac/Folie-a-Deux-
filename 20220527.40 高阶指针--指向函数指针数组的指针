@@ -1,0 +1,30 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+
+//int add(int x,int y)
+//{
+//	return x+y;
+//}
+//int main()
+//{
+//	int arr[10] = {0};
+//	int (*p)[10] = &arr;
+//	int(*parr[4])(int,int);
+//	int(*(*parr)[4])(int,int) = &parr;
+//	//pparr是一个数组指针,指针指向的数组有四个元素
+//	//指向数组的每个元素是一个函数指针
+//	return 0;
+//}
+
+//void*指针
+//int main()
+//{
+//	int a = 20;
+//	int *a = &a;
+//	char ch = 'w';
+//	void* pc = &a;//void*的指针可以接受任意类型的指针--void*指针不能进行解引用操作--不能进行+—整数运算
+//	pc = &ch;
+//	return 0;
+//}
