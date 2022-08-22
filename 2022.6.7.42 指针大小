@@ -1,0 +1,78 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	int a[] = {1,2,3,4};
+	printf("%d\n",sizeof(a));//数组总大小--16
+	printf("%d\n",sizeof(a+0));//a表示首元素地址--4
+	printf("%d\n",sizeof(*a));//*a是首元素--4
+	printf("%d\n",sizeof(a+1));//第二个元素地址--4
+	printf("%d\n",sizeof(a[1]));//第二个元素大小--4
+	printf("%d\n",sizeof(&a));//&a取出的是数组地址--4
+	printf("%d\n",sizeof(*&a));//数组总大小--16
+	printf("%d\n",sizeof(&a+1));//依然是个地址--4
+	printf("%d\n",sizeof(&a[0]));//第一个元素的地址--4
+	printf("%d\n",sizeof(&a[0]+1));//第二个元素的地址--4
+	char arr[] = {'a','b','c','d','e','f'};
+	printf("%d\n",sizeof(arr));//数组大小--6
+	printf("%d\n",sizeof(arr+0));//首元素地址--4
+	printf("%d\n",sizeof(*arr));//首元素--1
+	printf("%d\n",sizeof(arr[1]));//首元素--1
+	printf("%d\n",sizeof(&arr));//地址--4
+	printf("%d\n",sizeof(&arr+1));//地址--4
+	printf("%d\n",sizeof(&arr[0]+1));//第二个元素地址
+	char arr[] = {'a','b','c','d','e','f'};
+	printf("%d\n",strlen(arr));//随机值--找不到终止符
+	printf("%d\n",strlen(arr+0));//随机值--找不到终止符
+	printf("%d\n",strlen(*arr));//错误代码--‘a’--97阿斯克码
+	printf("%d\n",strlen(arr[1]));//错误代码
+	printf("%d\n",strlen(&arr));//随机值--找不到终止符
+	printf("%d\n",strlen(&arr+1));//随机值--与上面那个差6
+	printf("%d\n",strlen(&arr[0]+1));//比前两个少1
+	char arr[] = "abcdef";
+	printf("%d\n",sizeof(arr));//计算arr数组大小--7
+	printf("%d\n",sizeof(arr+0));//首元素地址--4
+	printf("%d\n",sizeof(*arr));//首元素--1
+	printf("%d\n",sizeof(arr[1]));//第二个元素--1
+	printf("%d\n",sizeof(&arr));//数组地址--4
+	printf("%d\n",sizeof(&arr+1));//跳过整个数组的地址--4
+	printf("%d\n",sizeof(&arr[0]+1));//第二个元素地址--4
+	char arr[] = "abcdef";
+	printf("%d\n",strlen(arr));//6
+	printf("%d\n",strlen(*arr));//错误代码--‘a’--97阿斯克码
+	printf("%d\n",strlen(arr+0));//首元素地址--6
+	printf("%d\n",strlen(arr[1]));//错误代码
+	printf("%d\n",strlen(&arr));//数组的地址--6--char[*p][7] = &arr;
+	printf("%d\n",strlen(&arr+1));//随机值
+	printf("%d\n",strlen(&arr[0]+1));//从第二个元素开始--5
+	char *p = "abcdef"
+	printf("%d\n",sizeof(p));//a的地址--4
+	printf("%d\n",sizeof(p+1));//b的地址
+	printf("%d\n",sizeof(*p));//就是a--1
+	printf("%d\n",sizeof(p[0]));//就是a--1 p[0]==*(p+0)
+	printf("%d\n",sizeof(&p));//地址--4
+	printf("%d\n",sizeof(&p+1));//地址--4
+	printf("%d\n",sizeof(&p[0]+1));//b的地址--4
+	char *p = "abcdef"
+	printf("%d\n",strlen(p));//a的地址--6
+	printf("%d\n",strlen(*p));//错误代码--‘a’--97阿斯克码
+	printf("%d\n",strlen(p+1));//b的地址--5
+	printf("%d\n",strlen(p[0]));//错误代码--‘a’--97阿斯克码
+	printf("%d\n",strlen(&p));//随机值--strlen从录入地址开始数--&p存的a的地址
+	printf("%d\n",strlen(&p+1));//随机值
+	printf("%d\n",strlen(&p[0]+1));//5
+	int a[3][4] = { 0 };
+	printf("%d\n",sizeof(a));//计算整个数组的大小--48
+	printf("%d\n",sizeof(a[0][0]));//计算第一个数--4
+	printf("%d\n",sizeof(a[0]));//这一行的大小--16
+	printf("%d\n",sizeof(a[0]+1));//a[0]表示首元素地址--第一行第二个元素地址--4
+	printf("%d\n",sizeof(*(a[0]+1)));//第一行第二个元素大小--4
+	printf("%d\n",sizeof(a+1));//第二行地址--4
+	printf("%d\n",sizeof(*(a+1)));//第二行内容--16
+	printf("%d\n",sizeof(&a[0]+1));//第二行地址--4
+	printf("%d\n",sizeof(*(&a[0]+1)));//第二行内容--16
+	printf("%d\n",sizeof(*a));//第一行--16
+	printf("%d\n",sizeof(a[3]));//16
+	return 0;
+}
