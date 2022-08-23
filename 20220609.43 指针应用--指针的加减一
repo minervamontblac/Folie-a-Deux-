@@ -1,0 +1,35 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+//int main()
+//{
+//	int a[5] = {1,2,3,4,5};
+//	int* ptr = (int*)(&a+1);
+//	printf("%d %d",*(a+1),*(ptr-1));
+//	return 0;
+//}
+
+//假设p的值为0x00100000，结构体类型大小20字节
+//struct test
+//{
+//	int num;
+//	char* pcname;
+//	short sdate;
+//	char cha[2];
+//	short sba[4];
+//}* p;
+//int main()
+//{
+//	printf("%p\n",p+0x1);0x00100000+20 = 0x00100014
+//	printf("%p\n",(unsigned long)p+0x1);0x00100000+1 = 0x00100001
+//	printf("%p\n",(unsigned int*)p+0x1);0x00100000+4 = 0x00100004
+//	return 0;
+//}
+
+//int main()
+//{
+//	int a[4] = {1,2,3,4};
+//	int* ptr1 = (int*)(&a+1);//向右偏移一个字节
+//	int* ptr2 = (int*)((int)a+1);
+//	printf("%x,%x",ptr1[-1],*ptr2);
+//	return 0;
+//}
