@@ -1,0 +1,19 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<string.h>
+#include<assert.h>
+#include<stdlib.h>
+
+//int main()
+//{
+//	if(strlen("abc") - strlen("abcdef") > 0)
+//	{
+//		printf("hehe");
+//	}
+//	else
+//	{
+//		printf("haha");
+//	}
+//	//strlen计算的是无符号数，定义为size_t为unsigned int
+//	return 0;
+//}
