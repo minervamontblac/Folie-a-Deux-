@@ -1,0 +1,26 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<string.h>
+#include<assert.h>
+#include<stdlib.h>
+
+//char* mystrcpy(char*dest,const char*src)//锁定右值 const放在指针*左边时修饰*p 不能改变*p的值 const放在*与p之间时修饰的是p
+//{
+//	char* ret = dest;
+//	assert(dest != NULL&&src != NULL);//断言可以抛出问题所在 不使用if
+//		while( *dest++ = *src++)
+//		{
+//			;
+//		}
+//		return ret;//返回类型
+//}
+//int main()
+//{
+//	char arr1[] = "*****************";
+//	char arr2[] = "bit";
+//	printf("%s\n",mystrcpy(arr1,arr2));
+//	return 0;
+//}
+//1.目标函数必须大
+//2.目标函数必须可修改
+//3.目标函数包含/0
