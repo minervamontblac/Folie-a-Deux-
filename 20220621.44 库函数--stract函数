@@ -1,0 +1,30 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<string.h>
+#include<assert.h>
+#include<stdlib.h>
+
+
+
+
+//void mystrcat(char* dest,const char* src)
+//{
+//	char * ret = dest;
+//	assert(dest != NULL&&src != NULL);
+//	while(*dest != '\0')
+//	{
+//		dest++;
+//	}
+//	while(*dest++ = *src++)
+//	{
+//		;
+//	}
+//}
+//int main()
+//{
+//	char arr1[30] = "hello";//目的地必须足够大
+//	char arr2[] = "world";//源头目的地必须存在/0
+//	mystrcat(arr1,arr2);
+//	printf("%s\n",arr1);
+//	return 0;
+//}
