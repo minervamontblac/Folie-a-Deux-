@@ -1,0 +1,14 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<string.h>
+#include<assert.h>
+#include<stdlib.h>
+
+
+//int main()
+//{
+//	char arr1[10] = "abcdef";
+//	char arr[] = "bit";
+//	strncpy(arr1,arr2,6);//多余的空间拷贝\0
+//	return 0;
+//}
