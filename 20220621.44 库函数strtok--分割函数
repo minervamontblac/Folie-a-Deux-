@@ -1,0 +1,32 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<string.h>
+#include<assert.h>
+#include<stdlib.h>
+#include<errno.h>
+#include<ctype.h>
+
+
+//会改变字符串
+//int main()
+//{
+//	char arr[] = "zpw@bite.tech";
+//	char* p = "@.";
+//	char buf[1024] = {0};
+//	strcpy(buf,arr);
+//	char* ret = NULL;
+//	//for循环巧妙代码
+//	for(ret = strtok(buf,p);ret != NULL;ret = strtok(NULL,p))
+//	{
+//		printf("%s\n",ret);
+//	}
+//	//一般代码
+//	//char* ret = strtok(buf,p);
+//	//printf("%s\n",ret);
+//	//ret = strtok(NULL,p);
+//	//printf("%s\n",ret);
+//	//ret = strtok(NULL,p);
+//	//printf("%s\n",ret);
+//	//strtok(arr,p);
+//	return 0;
+//}
