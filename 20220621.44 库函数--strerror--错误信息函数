@@ -1,0 +1,29 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<string.h>
+#include<assert.h>
+#include<stdlib.h>
+#include<errno.h>
+#include<ctype.h>
+
+
+//int main()
+//{
+//	//错误码 -- 错误信息 翻译
+//	//0 - no error
+//	//1 - operation not permitted
+//	//2 - No such file or directory
+//	//..
+//	//char* str = strerror(errno);//全局的错误变量，当C语言的库函数执行中发生了错误，会把对应的错误码赋值到errno上
+//	//printf("%s\n",str);
+//	FILE* pf = fopen("test,txt","r");// 打开函数
+//	if(pf == NULL)
+//	{
+//		printf("%s\n",strerror(errno));
+//	}
+//	else
+//	{
+//		printf("open file success\n");
+//	}
+//	return 0;
+//}
