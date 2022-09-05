@@ -1,0 +1,15 @@
+#include<assert.h>
+#include<stdlib.h>
+#include<errno.h>
+#include<ctype.h>
+
+
+
+//int main()
+//{
+//	char ch = 'w';
+//	int ret = islower(ch);
+//	int ret  = isdigit(ch);
+//	printf("%d\n",ret);
+//	return 0;
+//}
