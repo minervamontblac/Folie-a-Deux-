@@ -1,0 +1,28 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<string.h>
+#include<assert.h>
+#include<stdlib.h>
+#include<errno.h>
+#include<ctype.h>
+
+
+
+//int main()
+//{
+//	//char ch = tolower('Q');//大写转小写
+//	//char ch = toupper('q');//小写转大写
+//	//putchar(ch);
+//	char arr[] = "I Am A Student";
+//	int i = 0;
+//	while(arr[i])
+//	{
+//		if(isupper(arr[i]))
+//		{
+//			arr[i] = tolower(arr[i]);
+//		}
+//		i++;
+//	}
+//	printf("%s\n",arr);
+//	return 0;
+//}
