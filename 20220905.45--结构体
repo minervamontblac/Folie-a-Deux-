@@ -1,0 +1,23 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stddef.h>
+
+//声明一个结构体
+//声明一个学生类型
+//struct stu
+//{
+//	char name[20];
+//	char tele[12];
+//	char sex[10];
+//	int age;//成员变量
+//	//学生属性
+//}s4,s5,s6;//全局变量
+//
+//struct stu s3;//全局变量
+//
+//int main()
+//{
+//	struct stu s1;
+//	struct stu s2;//局部变量
+//	return 0;
+//}
