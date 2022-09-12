@@ -1,0 +1,15 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stddef.h>
+
+
+//typedef struct Node//typedef--重命名
+//{
+//	int data;
+//	struct Node *n;
+//}Node;
+//
+//int main()
+//{
+//	return 0;
+//}
