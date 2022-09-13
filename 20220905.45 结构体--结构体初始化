@@ -1,0 +1,25 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stddef.h>
+
+
+//struct t
+//{
+//	int v;
+//	char s;
+//};
+//struct s
+//{
+//	char c;
+//	int a;
+//	double d;
+//	char arr[20];
+//	struct t o;
+//};
+//
+//int main()
+//{
+//	struct s s = {'c',100,3.14,"hello bit",{4,'v'}};
+//	printf("%c %d %lf %s\n",s.c,s.a,s.d,s.arr);
+//	return 0;
+//}
