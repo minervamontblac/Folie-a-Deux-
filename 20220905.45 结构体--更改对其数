@@ -1,0 +1,18 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stddef.h>
+
+
+//#pragma pack(4)//设置对其数为4
+//struct s
+//{
+//	char c1;
+//	double d;
+//};
+//#pragma pack()//取消设计的默认对其数
+//int main()
+//{
+//	struct s s;
+//	printf("%d\n",sizeof(s));
+//	return 0;
+//}
