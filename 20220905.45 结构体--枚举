@@ -1,0 +1,32 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stddef.h>
+
+
+//枚举
+//方便调试
+//增加代码的可读性和可维护性
+//有类型检查，更加严谨
+//使用方便
+//enum sex
+//{
+//	//枚举的可能取值-常量
+//	male = 2,
+//	female = 3,
+//	secret = 8
+//};
+//
+//enum color
+//{
+//	red,//0
+//	green,//1
+//	blue//2
+//};
+//
+//int main()
+//{
+//	enum sex s = male;
+//	enum color c = blue;
+//	printf("%d %d %d\n",red,blue,green);
+//	return 0;
+//}
