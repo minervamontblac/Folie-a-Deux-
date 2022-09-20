@@ -1,0 +1,20 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stddef.h>
+
+
+//联合体
+//他们共用同一块空间
+//不能同时存在
+//union un
+//{
+//	char b;
+//	int i;
+//};
+//int main()
+//{
+//	union un u;
+//	printf("%d\n",sizeof(u));//4
+//	printf("%p\n",&u);
+//	return 0;
+//}
