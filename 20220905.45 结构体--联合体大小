@@ -1,0 +1,19 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stddef.h>
+
+
+//联合体大小
+//至少是最大成员的大小
+//当最大成员的大小不是对其数的整数倍时，对齐到最大整数倍
+//union un
+//{
+//	int a;
+//	char arr[5];
+//};
+//int main()
+//{
+//	union un u;
+//	printf("%d\n",sizeof(u));
+//	return 0;
+//}
