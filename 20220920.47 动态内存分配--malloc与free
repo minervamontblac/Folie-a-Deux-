@@ -1,0 +1,52 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdlib.h>
+#include<string.h>
+#include<errno.h>
+#include<stdio.h>
+#include<windows.h>
+
+//struct s
+//{
+//	char name;
+//	int age;
+//}
+//
+//int main()
+//{
+//	int n = 0;
+//	scanf("%d",n);
+//	struct s arr[n];
+//	return 0;
+//}
+
+//c语言可以创建变长数组--c99标准增加--gcc
+//动态内存分配
+//malloc与free
+//int main()
+//{
+//	//向内存申请10个整形的空间
+//	int* p = (int*)malloc(10*sizeof(int));
+//	if(p == NULL)
+//	{
+//		//打印错误原因
+//		printf("%s\n",strerror(errno));
+//	}
+//	else
+//	{
+//		//正常使用空间
+//		int i = 0;
+//		for(i=0;i<10;i++)
+//		{
+//			*(p+i) = i;
+//		}
+//		for(i=0;i<10;i++)
+//		{
+//			printf("%d\n",*(p+i));
+//		}
+//	}
+//	//释放空间
+//	//free函数是用来释放动态开辟的空间的
+//	free(p);
+//	p = NULL;
+//	return 0;
+//}
