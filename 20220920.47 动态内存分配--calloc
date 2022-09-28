@@ -1,0 +1,28 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdlib.h>
+#include<string.h>
+#include<errno.h>
+#include<stdio.h>
+#include<windows.h>
+
+
+//calloc--开辟空间并初始化0
+//int main()
+//{
+//	int* p = (int*)calloc(10,sizeof(int));
+//	if(p == NULL)
+//	{
+//		printf("%s\n",strerror(errno));
+//	}
+//	else
+//	{
+//		int i = 0;
+//		for(i=0;i<10;i++);
+//		{
+//			printf("%d\n",*(p+i));
+//		}
+//	}
+//	free(p);
+//	p = NULL;
+//	return 0;
+//}
