@@ -1,0 +1,14 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdlib.h>
+#include<string.h>
+#include<errno.h>
+#include<stdio.h>
+#include<windows.h>
+
+
+//realloc直接开辟等同于malloc
+//int main()
+//{
+//	int* p = (int*)realloc(NULL,80);
+//	return 0;
+//}
