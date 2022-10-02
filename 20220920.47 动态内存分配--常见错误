@@ -1,0 +1,78 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdlib.h>
+#include<string.h>
+#include<errno.h>
+#include<stdio.h>
+#include<windows.h>
+
+
+//常见错误
+//int main()
+//{
+	//1.对NULL进行解引用操作
+	//int* p = (int*)malloc(40);
+	//*p = 10;//开辟失败会导致对NULL进行解引用操作
+	//2.对动态开辟的空间越界访问
+
+	//int* p = (int*)malloc(40);
+	//if(p == NULL)
+	//{
+	//	return 0;
+	//}
+	//else
+	//{
+	//	int i = 0;
+	//	for(i=0;i<=10;i++)//越界访问
+	//	{
+	//		*(p+i) = i;
+	//	}
+	//}
+	//3.对非动态内存的释放
+
+	//int a = 10;
+	//int* p = &a;
+	//free(p);//对非动态内存的释放
+
+	//4.使用free动态开辟内存的一部分
+	//int* p = (int*)malloc(40);
+	//if(p == NULL)
+	//{
+	//	return 0;
+	//}
+	//else
+	//{
+	//	int i = 0;
+	//	for(i=0;i<10;i++)
+	//	{
+	//		*p++ = i;//p被改变无法从起始位置释放p
+	//	}
+	//}
+	//free(p);
+	//*p = NULL;
+
+	//5.对同一块内存多次释放
+	//int* p = (int*)malloc(40);
+	//if(p == NULL)
+	//{
+	//	return 0;
+	//}
+	//else
+	//{
+	//	int i = 0;
+	//	for(i=0;i<10;i++)
+	//	{
+	//		*(p+i) = i;//p被改变无法从起始位置释放p
+	//	}
+	//}
+	//free(p);
+	//free(p);//多次释放会假死
+	//*p = NULL;
+
+	//6.对动态开辟的内存忘记释放
+	//while(1)
+	//{
+	//	malloc(1);
+	//	Sleep(1000);//无线开辟内存  
+	//}
+//	return 0;
+//}
