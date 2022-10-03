@@ -1,0 +1,48 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdlib.h>
+#include<string.h>
+#include<errno.h>
+#include<stdio.h>
+#include<windows.h>
+
+//返回栈空间地址问题
+//char* getmemory(void)
+//{
+//	char p[] = "hello world";//局部变量,出去后内存释放,返回读取时被销毁
+//	return p;
+//}
+//void test(void)
+//{
+//	char* str =NULL;
+//	str = getmemory();
+//	printf(str);
+//}
+//int main()
+//{
+//	test();
+//	return 0;
+//}
+
+//int* test()
+//{
+//	int a = 10;//栈区，可以使用static进行修饰,改为返回静态区
+//	return &a;
+//}
+//int main()
+//{
+//	int* p = test();
+//	*p = 20;
+//	return 0;
+//}
+
+//int* test()
+//{
+//	int* ptr = malloc(100);
+//	return ptr;
+//}
+//
+//int main()
+//{
+//	int* p = test();
+//	return 0;
+//}
