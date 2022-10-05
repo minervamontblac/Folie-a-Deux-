@@ -1,0 +1,25 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdlib.h>
+#include<string.h>
+#include<errno.h>
+#include<stdio.h>
+#include<windows.h>
+
+
+//void test()
+//{
+//	char* str = (char*)malloc(100);
+//	strcpy(str,"hello");
+//	free(str);//free释放后，并不会将str置于NULL
+//	str = NULL;
+//	if(str!=NULL)
+//	{
+//		strcpy(str,"world");
+//		printf(str);
+//	}
+//}
+//int main()
+//{
+//	test();
+//	return 0;
+//}
