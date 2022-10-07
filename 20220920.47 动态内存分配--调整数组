@@ -1,0 +1,39 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdlib.h>
+#include<string.h>
+#include<errno.h>
+#include<stdio.h>
+#include<windows.h>
+
+
+//调整数组--多次使用malloc容易出错--内存碎片导致内存浪费
+//struct s
+//{
+//	int n;
+//	int* arr;
+//};
+//
+//int main()
+//{
+//	struct s* ps = (struct s*)malloc(sizeof(struct s));
+//	ps->arr = (int*)malloc(5*sizeof(int));
+//	int i = 0;
+//	for(i = 0;i<5;i++)
+//	{
+//		ps->arr[i] = i;
+//	}
+//	int* ptr = (int*)realloc(ps->arr,10*sizeof(int));
+//	if(ptr!=NULL)
+//	{
+//		ps->arr = ptr;
+//	}
+//	for(i = 0;i<10;i++)
+//	{
+//		ps->arr[i] = i;
+//	}
+//	free(ps->arr);
+//	ps->arr = NULL;
+//	free(ps);
+//	ps = NULL;
+//	return 0;
+//}
