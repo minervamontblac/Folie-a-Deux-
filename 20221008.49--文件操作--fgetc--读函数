@@ -1,0 +1,29 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<errno.h>
+#include<string.h>
+
+//fgetc--读函数
+//int main()
+//{
+//	FILE* pfread = fopen("TEST.txt","r");
+//		if(pfread == NULL)
+//	{
+//		printf("%s\n",strerror(errno));
+//		return 0;
+//	}
+//	//读文件
+//	printf("%c\n",fgetc(pfread));
+//	printf("%c\n",fgetc(pfread));
+//	printf("%c\n",fgetc(pfread));
+//	fclose(pfread);
+//	pfread = NULL;
+//	return 0;
+//}
+
+//从键盘输入
+//输出到屏幕
+//屏幕与键盘都是外部设备
+//键盘--标准输入设备--stdin
+//屏幕--标准输出设备--stdout
+//这是一个程序默认打开的两个流设备
