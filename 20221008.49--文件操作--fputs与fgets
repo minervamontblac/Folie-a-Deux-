@@ -1,0 +1,13 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<errno.h>
+#include<string.h>
+
+//fputs与fgets
+//int main()
+//{
+//	char arr[1024] = {0};
+//	fgets(arr,1024,stdin);//从标准输入流读取
+//	fputs(arr,stdout);//从标准输出流输出
+//	return 0;
+//}
