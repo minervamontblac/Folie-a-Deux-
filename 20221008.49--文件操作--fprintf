@@ -1,0 +1,31 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<errno.h>
+#include<string.h>
+
+//scanf与printf--是针对标准输入流和标准输出流
+//fscanf与fprintf--是针对所有输入流和所有输出流
+//sscanf--是从字符串中读取格式化的数据
+//sprintf--是把格式化的数据输出成字符串
+
+//fprintf
+//struct S
+//{
+//	int n;
+//	float score;
+//	char arr[10];
+//};
+//int main()
+//{
+//	struct S s = { 100, 5.0f, "bit" };
+//	FILE* pf = fopen("TEST.txt","w");
+//	if(pf == NULL)
+//	{
+//		printf("%s\n",strerror(errno));
+//		return 0;
+//	}
+//	fprintf(pf,"%d %f %s",s.n,s.score,s.arr);
+//	fclose(pf);
+//	pf = NULL;
+//	return 0;
+//}
