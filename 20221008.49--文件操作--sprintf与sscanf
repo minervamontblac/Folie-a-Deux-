@@ -1,0 +1,22 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<errno.h>
+#include<string.h>
+
+
+//sprintf与sscanf--转换为字符串打印
+//struct S
+//{
+//	int n;
+//	float score;
+//	char arr[10];
+//};
+//int main()
+//{
+//	struct S s = {100,3.14f,"bit"};
+//	struct S tmp = {0};
+//	char arr[1024] = {0};
+//	sprintf(arr,"%d %f %s",s.n,s.score,s.arr);
+//	sscanf(arr,"%d %f %s",&tmp.n,&tmp.score,&tmp.arr);
+//	return 0;
+//}
