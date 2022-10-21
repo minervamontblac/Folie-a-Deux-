@@ -1,0 +1,48 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<errno.h>
+#include<string.h>
+
+
+
+//fread与fwrite--二进制的方式读取与写入文件
+//struct S
+//{
+//	char name[20];
+//	int age;
+//	double score;
+//};
+//int main()
+//{
+//	FILE* pf = fopen("TEST.txt","wb");
+//	struct S s = {"张三",25,58.6};
+//	if(pf == NULL)
+//	{
+//		printf("%s\n",strerror(errno));
+//		return 0;
+//	}
+//	fwrite(&s,sizeof(struct S),1,pf);
+//	fclose(pf);
+//	pf = NULL;
+//	return 0;
+//}
+//struct S
+//{
+//	char name[20];
+//	int age;
+//	double score;
+//};
+//int main()
+//{
+//	FILE* pf = fopen("TEST.txt","rb");
+//	struct S tmp = {0};
+//	if(pf == NULL)
+//	{
+//		printf("%s\n",strerror(errno));
+//		return 0;
+//	}
+//	fread(&tmp,sizeof(struct S),1,pf);
+//	fclose(pf);
+//	pf = NULL;
+//	return 0;
+//}
