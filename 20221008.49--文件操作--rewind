@@ -1,0 +1,20 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<errno.h>
+#include<string.h>
+
+
+//rewind--将文件指针重置
+//int main()
+//{
+//	FILE* pf = fopen("TEST.txt","rb");
+//	if(pf == NULL)
+//	{
+//		printf("%s\n",strerror(errno));
+//		return 0;
+//	}
+//	rewind(pf);
+//	fclose(pf);
+//	pf = NULL;
+//	return 0;
+//}
