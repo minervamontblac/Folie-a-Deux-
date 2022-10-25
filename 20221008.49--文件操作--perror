@@ -1,0 +1,18 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<errno.h>
+#include<string.h>
+//perror--会先打印""中的字符再打印:与空格
+//int main()
+//{
+//	int c;
+//	FILE* pf = fopen("TEST.txt","rb");
+//	if(pf == NULL)
+//	{
+//		perror("hehe");
+//		return 0;
+//	}
+//	fclose(pf);
+//	pf = NULL;
+//	return 0;
+//}
