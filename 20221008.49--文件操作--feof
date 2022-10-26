@@ -1,0 +1,32 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<errno.h>
+#include<string.h>
+
+//feof--文件结束标志
+//用来判断文件结束的原因
+int main()
+{
+	FILE* pf = fopen("TEST.txt","rb");
+	if(pf == NULL)
+	{
+		perror("hehe");
+		return 0;
+	}
+	int ch = 0;
+	while((ch = fgetc(pf)) != EOF)
+	{
+		putchar(ch);
+	}
+	if(ferror(pf)
+	{
+		printf("error\n");
+	}
+	else if(feof(pf))
+	{
+		printf("file");
+	}
+	fclose(pf);
+	pf = NULL;
+	return 0;
+}
