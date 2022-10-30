@@ -1,0 +1,15 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stddef.h>
+
+//预定义符号
+//__FLIE__--代码所在的绝对路径
+//__LINE__--代码所在的函数
+//__DATA__--代码所执行的日期
+//__TIME__--代码所执行的时间
+//__FUNCTION__代码所在函数的位置
+//int main()
+//{
+//	printf("%d\n",__STDC__);//严格遵守ANSI-C其值为一
+//	return 0;
+//}
