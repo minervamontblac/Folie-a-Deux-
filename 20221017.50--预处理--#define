@@ -1,0 +1,24 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stddef.h>
+
+//#define--建议不要加;
+//1.定义标识符
+//#define max 100;
+//2.定义宏--尽量写括号
+//首先检查参数是否进行替换 然后进行宏参数替换
+//宏不能进行递归
+//#define square(x) (x)*(x)
+//int main()
+//{
+//	int ret = square(5);//5*5
+//  int ret = square(5+1)//5+1*5+1
+//	return 0;
+//}
+//#define double(x) ((x)+(x))
+//int main()
+//{
+//	int a =5;
+//	int ret = 10*double(a);
+//	return 0;
+//}
