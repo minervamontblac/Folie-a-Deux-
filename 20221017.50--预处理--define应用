@@ -1,0 +1,39 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stddef.h>
+
+
+
+//void print(int a)
+//{
+//	printf("the value of a is %d\n",a);
+//}
+//int main()
+//{
+//	int a = 10;
+//	//printf("the value of a is %d\n",a);
+//	print(a);
+//	return 0;
+//}
+
+//把宏的参数插入到字符串中
+//#define PRINT(X) printf("the valude of "#X" is %d\n",X)
+//int main()
+//{
+//	int a = 10;
+//	int b = 20;
+//	PRINT(b);
+//	PRINT(a);
+//	return 0;
+//}
+
+//前后连接
+//#define CAT(X,Y) X##Y
+//int main()
+//{
+//	int Class01 = 2017;
+//	printf("%d\n",CAT(Class,01));
+//	printf("%d\n",CAT(Class##01));
+//	printf("%d\n",CAT(Class01));
+//	return 0;
+//}
