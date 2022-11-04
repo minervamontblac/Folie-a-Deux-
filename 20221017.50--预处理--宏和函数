@@ -1,0 +1,16 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stddef.h>
+
+//宏和函数
+//函数
+//函数的调用会有调用和返回的开销
+//函数的调用对参数类型有限制
+//int Max(int x, int y)
+//{
+//	return (x>y?x:y);
+//}
+//float Max2(float x, float y)
+//{
+//	return (x>y?x:y);
+//}
