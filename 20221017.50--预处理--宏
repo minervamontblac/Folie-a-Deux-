@@ -1,0 +1,23 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stddef.h>
+
+//宏
+//没有函数的调用和返回开销
+//无法进行调试
+//无关类型不够严谨
+//无运算符优先级
+//#define MAX(X,Y) (X)>(Y)?(X):(Y)
+//
+//int main()
+//{
+//	float c = 3.1f;
+//	float d = 2.3f;
+//	int max2 = Max2(c,d);
+//	int a = 10;
+//	int b = 11;
+//	int max = Max(a,b);
+//	max = MAX(a,b);
+//	printf("%d\n",max);
+//	return 0;
+//}
