@@ -1,0 +1,24 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stddef.h>
+
+
+//宏可以传输类型
+//#define SIZEOF(type) sizeof(type)
+//int main()
+//{
+//	int ret = SIZEOF(int);
+//	printf("%d\n",ret);
+//	return 0;
+//}
+//#define MALLOC(NUM,TYPE) (type*)malloc(num*sizeof(int))
+//int main()
+//{
+//	int* p = (int*)malloc(10*sizeof(int));
+//	int* p = MALLOC(10,int);
+//	return 0;
+//}
+//inline--内联函数--可以替换宏的函数
+//命名约定
+//宏名全大写
+//函数不要全大小
