@@ -1,0 +1,13 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stddef.h>
+
+//#undef--消除宏定义
+//#define SIZEOF(type) sizeof(type)
+//#undef SIZEOF
+//int main()
+//{
+//	int ret = SIZEOF(int);
+//	printf("%d\n",ret);
+//	return 0;
+//}
