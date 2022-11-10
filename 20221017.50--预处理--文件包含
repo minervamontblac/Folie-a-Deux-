@@ -1,0 +1,12 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stddef.h>
+
+//文件包含
+//#include<stdio.h>--库文件--只会标准路径查找
+//#include"add.h"--本地文件--首先在源文件下查找--再在标准路径查找
+//int main()
+//{
+//	printf("hehe");
+//	return 0;
+//}
