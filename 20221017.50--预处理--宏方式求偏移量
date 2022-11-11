@@ -1,0 +1,20 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stddef.h>
+
+//宏方式求偏移量
+//系统方式
+//struct S
+//{
+//	char c1;
+//	int a;
+//	char c2;
+//};
+//
+//int main()
+//{
+//	printf("%d\n",offsetof(struct S ,c1));
+//	printf("%d\n",offsetof(struct S ,a));
+//	printf("%d\n",offsetof(struct S ,c2));
+//	return 0;
+//}
