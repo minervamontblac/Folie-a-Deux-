@@ -1,0 +1,20 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<stddef.h>
+
+//宏定义
+//#define Offsetof(struct_name,member_name)(int)&(((struct_name*)0)->member_name)
+//struct S
+//{
+//	char c1;
+//	int a;
+//	char c2;
+//};
+//
+//int main()
+//{
+//	printf("%d\n",Offsetof(struct S ,c1));
+//	printf("%d\n",Offsetof(struct S ,a));
+//	printf("%d\n",Offsetof(struct S ,c2));
+//	return 0;
+//}
