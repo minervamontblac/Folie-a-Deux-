@@ -1,0 +1,47 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<errno.h>
+#include<string.h>
+int  main()
+{
+	FILE* pf;
+	FILE* df;
+	pf = fopen("D:\\zzz\\tiqu.txt","r");
+	if(pf == NULL)
+	{
+		printf("%s\n",strerror(errno));
+	}
+	int arr[3][4];
+	int i,j;
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<4;j++)
+		{
+			fscanf(pf,"%d",&arr[i][j]);
+		}
+	}
+	int sum1,sum2,sum3;
+	sum1 = (arr[0][1] + arr[1][1] + arr[2][1])/3;
+	sum2 = (arr[0][2] + arr[1][2] + arr[2][2])/3;
+	sum3 = (arr[0][3] + arr[1][3] + arr[2][3])/3;
+	df = fopen("D:\\zzz\\fangru.txt","w");
+	fprintf(df,"%s","==============================\n");
+	fprintf(df,"学号\t英语\t大物\tC语言\n");
+	for(i=0;i<3;i++)
+	{
+		for(j=0;j<4;j++)
+		{
+			fprintf(df,"%d\t",arr[i][j]);
+		}
+		fprintf(df,"\n");
+	}
+	fprintf(df,"==============================\n");
+	fprintf(df,"平均分\t");
+	fprintf(df,"%d\t%d\t%d\n",sum1,sum2,sum3);
+	printf("操作完成\n");
+	fclose(pf);
+	pf = NULL;
+	fclose(df);
+	df = NULL;
+	return 0;
+}
